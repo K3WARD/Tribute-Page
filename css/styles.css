@@ -7,23 +7,23 @@ body {
 #rutherford {
 text-align: center;  
 background-image: url("https://image.freepik.com/free-photo/molecule-atom-design_36845-227.jpg" );
-background: 
-background-repeat: no-repeat;   
-width: 80%;
 border-radius: 50px;
+width: 90%;
+margin: 0 5% 0 5%;
+
 }
 
 
 
 h1 {
   text-align: center;
-  color: rgb(3, 3, 78);
+  color: rgb(207, 35, 35);
   text-transform: uppercase;
   text-decoration: underline;
   font-weight: bolder;
-  margin-bottom: 4rem;
+  padding: 2vh 0 5vh 0;
   
-
+  
 }
 
 h2 {
@@ -34,8 +34,6 @@ h2 {
   
 }
 
-
-
 h3 {
   text-align: center;
   color: rgb(0, 0, 0);
@@ -44,13 +42,12 @@ h3 {
 
 }
 
-.centered p {
+#rutherford p {
   text-align: center;
-  color: rgb(3, 3, 78);
+  color: rgb(207, 35, 35);
   font-style: italic;
-  font-weight: bolder;
-  border-radius: 55px;
-  opacity: .5;
+  font-weight: bold;
+  padding-bottom: 3vh;
 
 
 }
@@ -82,21 +79,35 @@ figcaption {
   font-size: .5em;
 }
   
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
  section {
-   display: inline-block;
+   display: flexbox;
    width: 65%;
    height: auto;
    float: left;
+   margin-bottom: 10%;
  }  
 aside {
-   display: inline-block;
+   display: flexbox;
    width: 35%;
    height: auto;
+   margin-bottom: 10%;
 
  }  
+
+ figure {
+   display: block;
+ }
+
  footer {
   display: block;
-  margin-top: 15vh;
+  margin: 10%;
+  text-align: center;
  
 
 }  
