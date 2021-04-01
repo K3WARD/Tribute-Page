@@ -49,22 +49,25 @@ h3 {
   font-weight: bold;
   padding-bottom: 3vh;
 
-
 }
 #img-div, #img-note, #img-older {
-text-align: center;
-margin-top: 15vh;
+  display: block;
+  margin-top: 15vh;
+
 
 }
 
 
  #image, #older, #note{
   border-radius: 50px;
-  opacity: .4;
   border: darkblue;
   border-style: solid;
-  border-width: 5px; 
-  width: 80%;
+  border-width: 2px; 
+  max-width: 80%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  
   
  }
 
@@ -90,52 +93,20 @@ figcaption {
    width: 65%;
    height: auto;
    float: left;
-   margin-bottom: 10%;
+   
  }  
 aside {
    display: flexbox;
    width: 35%;
    height: auto;
-   margin-bottom: 10%;
-
  }  
 
- figure {
-   display: block;
- }
 
  footer {
   display: block;
-  margin: 10%;
+  margin: 2%;
   text-align: center;
  
 
 }  
 
-
-@media (max-width: 576px) { 
-  
-  #atoms {
-     height: 50vh;
-}
-
-
-@media (min-width: 768px) { 
-  #atoms {
-    height: 80vh;
-
- }
-
-
-@media (min-width: 992px) { 
-  #atoms {
-    height: 100vh;
-
-}
-
-
-@media (min-width: 1200px) { 
-  #atoms {
-    height: 120vh;
-
- }
