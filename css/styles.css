@@ -1,0 +1,113 @@
+html { font-size: 2vw; }
+
+body {
+  background-color: rgb(173, 216, 230);
+}
+
+#rutherford {
+  position: relative;
+  text-align: center;
+    
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#atoms {
+  border-radius: 100px;
+  opacity: .4;
+  border: darkblue;
+  border-style: solid;
+  border-width: 5px; 
+}
+
+h1 {
+  text-align: center;
+  color: rgb(3, 3, 78);
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  
+
+}
+
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 3rem;
+  margin-top: 15vh;
+  
+}
+
+
+
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  
+
+}
+
+.centered p {
+  text-align: center;
+  color: rgb(3, 3, 78);
+  font-style: italic;
+  font-weight: bolder;
+  border-radius: 55px;
+  opacity: .5;
+
+
+}
+#img-div, #img-note, #img-older {
+text-align: center;
+margin-top: 15vh;
+
+}
+
+
+ #image, #older, #note{
+  border-radius: 50px;
+  opacity: .4;
+  border: darkblue;
+  border-style: solid;
+  border-width: 5px; 
+  width: 80%;
+  
+ }
+
+ li {
+   margin-bottom: 2vh;
+   list-style-image: url("/img/atom.png");
+   margin-left: 2em;
+  }
+
+figcaption {
+  text-align: center;
+  font-size: .5em;
+}
+  
+ section {
+   display: inline-block;
+   width: 65%;
+   height: auto;
+   float: left;
+ }  
+aside {
+   display: inline-block;
+   width: 35%;
+   height: auto;
+
+ }  
+ footer {
+  display: block;
+  margin-top: 15vh;
+ 
+
+}  
+
